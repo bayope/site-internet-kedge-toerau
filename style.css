@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:');
 
 body{
-background-color: #F7F9FC;
+background-color:#F0F8FF;
 text-align: center;
-color:  #575F7D
+color:  grey
 }
 h1{
-	color: #575F7D;
+	color: black;
 	font-size: 32px
 }
 h2{
-	background-color: white;
-	color: #7ECE90
+	background-color:
+;
+	color: #F5F5F5
 	font-size: 20px
 }
 a{
@@ -21,7 +22,8 @@ p{
 	text-align:center;
 }
 img{
-	border-radius: 50%
+	border-radius: 50%;
+	width: 15%;
 }
 
 div{
@@ -36,8 +38,8 @@ div{
 	box-shadow: 3px 3px 3px grey;
 }
 .button-blue{
-	background-color:black;
-	color: white;
+	background-color:white;
+	color: black;
 	font-weight: bold;
 	padding: 16px;
 	border:1px black solid;
@@ -45,6 +47,7 @@ div{
 	display:block;
 	width: 20%;
 	transition: 1s;
+	border-radius: 10px
 }
 
 .button-blue:hover{
@@ -72,4 +75,15 @@ i:hover{
 
 #list-inline li {
 	padding:0;
+}
+.button-black{
+	color:white;
+	background-color: black;
+	font-weight: bold;
+	padding: 10px;
+	border:2px black solid;
+	margin:24px auto;
+	display:block;
+	width: 15%;
+	border-radius: 10px;
 }
